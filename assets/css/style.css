@@ -250,3 +250,24 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+.git_stats_img{
+ /* border: 1px solid red; */
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ width: 45%;
+ height: 30%;
+}
+.git_stats_img > img{
+    width: 100%;
+}
+
+.techStack_icon{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 25px;
+}
+
+.techStack_iconSet{
+    padding-right: 5px;
+   
+}
