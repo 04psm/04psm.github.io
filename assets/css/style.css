@@ -271,3 +271,48 @@ img {
     padding-right: 5px;
    
 }
+
+.personla_details_phone_email{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  
+}
+
+.personla_details_phone_email > div {
+    text-align: center;
+    /* border: 1px solid red ; */
+    width: 34%;
+}
+
+.pic_small_screen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* border: 1px solid red ; */
+    /* box-shadow: #deff58(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.pic_small_screen > img{
+    border: 12px solid #deff58 ;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    height: 300px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+@media all and (min-width: 992px) and (max-width:4000px) {
+        .pic_small_screen{
+            display: none;
+        }
+        .pic_small_screen > img{
+            display: none;
+        }
+}
