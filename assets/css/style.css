@@ -316,3 +316,41 @@ img {
             display: none;
         }
 }
+
+#git_curStats{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "a b c";
+
+}
+.stast1{
+    grid-area: a;
+}
+
+.stast2{
+    grid-area: b;
+}
+
+.stast3{
+    grid-area: c;
+}
+
+@media all and (min-width:68px) and (max-width:992px) {
+    #git_curStats{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 10px;
+        grid-template-areas: 
+        "a"
+        "b"
+        "c";
+    }
+    
+}
